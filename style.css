@@ -1,0 +1,65 @@
+*{
+  align-items: center;
+}
+
+body {
+    background:white;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+section {
+  width:80%;
+  padding-left: 20px;
+}
+
+.redbanner {
+  margin-left: 10px;
+}
+
+.navigation{
+  display: inline-block;
+  align-self: center;
+  list-style: none;
+  line-height: 3;
+  background-color: white;
+  }
+
+.navigation li{
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.navigation a{
+  color: black;
+}
+
+.navigation a:hover{
+  color: blue;
+}
+
+.imgtext{
+  background: #d50000;
+  color: white;
+  width: 100%;
+  text-align: left;
+  padding 10px;
+  /*margin: 40px 40px;*/
+}
+.joinus{
+  text-align: center;
+}
+.joinus a{
+  color: white;
+}
+
+.joinus a:hover{
+  color: blue;
+  
+}
