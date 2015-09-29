@@ -21,6 +21,20 @@ section {
   margin-left: 10px;
 }
 
+.nationsite{
+  background-color: #d50000;
+  color: black;
+  font-size: 15px;
+  padding: 5px;
+  display:inline-block;
+  border-radius: 5px;
+}
+
+.nationsite a:hover{
+font-size: 16px;
+
+}
+
 .navigation{
   display: inline-block;
   align-self: center;
@@ -52,6 +66,8 @@ section {
   padding 10px;
   /*margin: 40px 40px;*/
 }
+
+
 .joinus{
   text-align: center;
 }
@@ -61,5 +77,15 @@ section {
 
 .joinus a:hover{
   color: blue;
-  
+}
+
+.start-of-line {
+  float: right;
+}
+
+.start-of-line img{
+  width: 95px;
+}
+.mainsection{
+  display:inline-block;
 }
