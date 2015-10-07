@@ -1,53 +1,28 @@
-*{
-  align-items: center;
-}
 
+/*		We meet every month at <a href="https://www.google.co.uk/maps/place/Keymer+Rd,+Hassocks+BN6+8QH,+UK/data=!4m2!3m1!1s0x48758ec0108adb69:0x50788356b55bcd5a?sa=X&ved=0CCAQ8gEwAGoVChMIy6HppJmayAIVSVYaCh35IQLz" target="_blank">Adastra Hall, Keymer Road, Hassocks BN6 8QH </a><br/>
+*/
 body {
-    background:white;
-    color: black;
+    background:#ffd994;/*#ffc04d;*/
+    color: black;/*#33260f;*/
     font-family: Helvetica, Arial, sans-serif;
 }
 
 a{
   text-decoration: none;
-}
-
-section {
-  width:80%;
-  padding-left: 20px;
-}
-
-.redbanner {
-  margin-left: 10px;
-}
-
-.nationsite{
-  background-color: #d50000;
-  color: black;
-  font-size: 15px;
-  padding: 5px;
-  display:inline-block;
-  border-radius: 5px;
-}
-
-.nationsite a:hover{
-font-size: 16px;
-
+  color: white;
 }
 
 .navigation{
   display: inline-block;
-  align-self: center;
   list-style: none;
-  line-height: 3;
-  background-color: white;
+  line-height: 2;
   }
 
 .navigation li{
   display: inline-block;
   padding: 10px;
   margin: 0 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .navigation a{
@@ -55,37 +30,105 @@ font-size: 16px;
 }
 
 .navigation a:hover{
-  color: blue;
+  color: #d50000;
 }
 
-.imgtext{
+#national{
+  display:inline;
+  background-color: #d50000;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+#national:hover{
+  color: white;
+}
+
+.logo{
+  display: inline-block;
+  position:absolute;
+  height: 50px;
+  right: 50px;
+  top: 0px;
+  margin:0px;
+}
+
+.welcome, .redbanner{
+  display:flex;
+  justify-content: center;
   background: #d50000;
   color: white;
-  width: 100%;
-  text-align: left;
-  padding 10px;
-  /*margin: 40px 40px;*/
+  width: 90%;
+  text-align: center;
+  position: relative;
+  min-height: 50px;
+  margin: 0px auto;
 }
 
+.welcome h2, .redbanner h3{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 
-.joinus{
+.redbanner{
+  white-space: pre;
+}
+
+.redbanner a:hover{
+  color: black;
+}
+
+.main, .dets{
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+}
+
+.dets a, .main a{
+  color: black;
+}
+
+.dets a:hover, .main a:hover{
+  color: #d50000;
+}
+
+.dets ul{
+  list-style: none;
+}
+
+.mainsection, .details{
+  width:90%;
+  margin: 0px auto;
   text-align: center;
 }
-.joinus a{
-  color: white;
+
+.main{
+  width: 40%;
 }
 
-.joinus a:hover{
-  color: blue;
+.details, .mainsection div{
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 40px 10px 20px;
 }
 
-.start-of-line {
-  float: right;
+.mainsection img{
+  margin-top: 21px;
+  padding: 10px 30px 0px 40px;
 }
 
-.start-of-line img{
-  width: 95px;
+ .icons{
+   height:25px;
+ }
+
+footer{
+  text-align: right;
+  font-size: 12px;
 }
-.mainsection{
-  display:inline-block;
+
+@media screen and (max-width:800px){
+  .logo{
+    display:none;
+  }
 }
