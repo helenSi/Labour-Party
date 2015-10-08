@@ -1,12 +1,16 @@
 body {
-    background:#ffd994;/*#ffc04d;*/
+    /*background:#ffd994;#ffc04d;*/
     color: black;/*#33260f;*/
     font-family: Helvetica, Arial, sans-serif;
 }
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+a:hover{
+  color: #d50000;
 }
 
 .navigation{
@@ -20,14 +24,6 @@ a{
   padding: 10px;
   margin: 0 10px;
   font-size: 18px;
-}
-
-.navigation a{
-  color: black;
-}
-
-.navigation a:hover{
-  color: #d50000;
 }
 
 #national{
@@ -76,6 +72,10 @@ a{
   white-space: pre;
 }
 
+.redbanner a{
+  color: white;
+}
+
 .redbanner a:hover{
   color: black;
 }
@@ -83,14 +83,6 @@ a{
 .main, .dets{
   display: inline-block;
   padding: 10px 40px 10px 40px;
-}
-
-.dets a, .main a{
-  color: black;
-}
-
-.dets a:hover, .main a:hover{
-  color: #d50000;
 }
 
 .dets ul{
@@ -120,6 +112,7 @@ a{
  .icons{
    height:25px;
  }
+
 
 footer{
   text-align: right;
